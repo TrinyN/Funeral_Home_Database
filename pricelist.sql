@@ -2,8 +2,18 @@
 
 /* start */
 
+/* Build the schema */
+CREATE TABLE `pricelist` (
+  `expenseID` int NOT NULL,
+  `expenseName` varchar(100) NOT NULL,
+  `price` double NOT NULL,
+  PRIMARY KEY (`expenseID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+/* View the schema */
 SELECT * FROM funeral_home.pricelist;
 
+/* Insert expenses */
 insert into funeral_home.pricelist (expenseID, expenseName, price) values (00, 'Basic services of funeral director and staff and overhead', 1895.00);
 insert into funeral_home.pricelist (expenseID, expenseName, price) values (01, 'Embalming', 825.00);
 insert into funeral_home.pricelist (expenseID, expenseName, price) values (02, 'Other preparation of the body', 240.00);
