@@ -1,4 +1,4 @@
-CREATE TABLE `sevice_expenses` (
+CREATE TABLE `service_expenses` (
   `SERVICE_NUM` int NOT NULL,
   `EXPENSE_ID` int NOT NULL,
   PRIMARY KEY (`SERVICE_NUM`,`EXPENSE_ID`),
