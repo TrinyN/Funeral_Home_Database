@@ -1,3 +1,7 @@
+/* New insert for floral charges */
+
+insert into pricelist(expenseID, expenseName, price) value (58, 'Florist Charges', 135);
+
 /* SQL queries to retrieve the current state of the price list as well as to insert all of the funeral home's expenses into it */
 
 /* start */
