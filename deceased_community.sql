@@ -10,7 +10,7 @@ CREATE TABLE `deceased_community` (
   `business` varchar(45) DEFAULT NULL,
   `education` varchar(45) DEFAULT NULL,
   `church` varchar(45) DEFAULT NULL,
-  `organization` varchar(45) DEFAULT NULL,
+  `deceasedOrganization` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`SSN`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
 
