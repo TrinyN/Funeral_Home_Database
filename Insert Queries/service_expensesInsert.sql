@@ -6,6 +6,7 @@ insert into service_expenses(SERVICE_NUM,EXPENSE_ID) values (7, 6);
 insert into service_expenses(SERVICE_NUM,EXPENSE_ID) values (7, 12);
 insert into service_expenses(SERVICE_NUM,EXPENSE_ID) values (7, 13);
 insert into service_expenses(SERVICE_NUM,EXPENSE_ID) values (7, 17);
+insert into service_expenses(SERVICE_NUM, EXPENSE_ID) value (7, 58);
 
 
 /* New Inserts. Expense with Expense_ID 0 must always be selected, no matter any other chosen expenses */
