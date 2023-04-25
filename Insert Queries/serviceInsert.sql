@@ -1,4 +1,4 @@
-insert into service (service_num, service_date, service_loc, deceased_ssn, payer_id, service_loc, deceased_ssn, payer_id)) values (00, '9/18/2022 7:30', '1794 Old Georgetown Rd, Manning, SC 29102', 180204522, 1)
+insert into service (service_num, service_date, service_loc, deceased_ssn, payer_id, service_loc, deceased_ssn, payer_id)) values (00, '9/18/2022 7:30', '1794 Old Georgetown Rd, Manning, SC 29102', 180204522, 1);
 insert into service (service_num, service_date, service_loc, deceased_ssn, payer_id) values (01, '12/13/2022 15:35', '90 Calypso Pass', 180873100, 2);
 insert into service (service_num, service_date, service_loc, deceased_ssn, payer_id) values (02, '5/29/2022 7:27', '11592 Starling Street', 247198126, 3);
 insert into service (service_num, service_date, service_loc, deceased_ssn, payer_id) values (03, '6/26/2022 5:27', '74 Cardinal Court',  366354014, 4);
