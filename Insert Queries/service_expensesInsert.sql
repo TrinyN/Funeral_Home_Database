@@ -56,7 +56,6 @@ insert into service_expenses(service_num, expense_id) value (6, 5);
 insert into service_expenses(service_num, expense_id) value (6, 52);
 insert into service_expenses(service_num, expense_id) value (6, 23);
 insert into service_expenses(service_num, expense_id) value (6, 40);
-insert into service_expenses(service_num, expense_id) value (7, 37);
 insert into service_expenses(service_num, expense_id) value (7, 33);
 insert into service_expenses(service_num, expense_id) value (7, 40);
 insert into service_expenses(service_num, expense_id) value (7, 1);
