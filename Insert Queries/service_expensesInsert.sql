@@ -1,9 +1,14 @@
 /* New Inserts. Expense with Expense_ID 0 must always be selected, no matter any other chosen expenses */
 
+insert into service_expenses(SERVICE_NUM,EXPENSE_ID) values (0, 0);
+insert into service_expenses(SERVICE_NUM,EXPENSE_ID) values (2, 0);
 insert into service_expenses(SERVICE_NUM,EXPENSE_ID) values (4, 0);
+insert into service_expenses(SERVICE_NUM,EXPENSE_ID) values (5, 0);
 insert into service_expenses(SERVICE_NUM,EXPENSE_ID) values (6, 0);
 insert into service_expenses(SERVICE_NUM,EXPENSE_ID) values (7, 0);
+insert into service_expenses(SERVICE_NUM,EXPENSE_ID) values (9, 0);
 insert into service_expenses(SERVICE_NUM,EXPENSE_ID) values (10, 0);
+insert into service_expenses(SERVICE_NUM,EXPENSE_ID) values (13, 0);
 insert into service_expenses(SERVICE_NUM,EXPENSE_ID) values (14, 0);
 insert into service_expenses(SERVICE_NUM,EXPENSE_ID) values (15, 0);
 insert into service_expenses(SERVICE_NUM,EXPENSE_ID) values (16, 0);
