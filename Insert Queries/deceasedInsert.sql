@@ -1,3 +1,15 @@
+/* Updates to Original Inserts (AFTER Basic Inserts) */
+
+UPDATE deceased 
+SET AGE = AGE - 40
+WHERE PERSON_ID < 20;
+
+UPDATE deceased 
+SET BIRTHDATE = DATE_ADD(BIRTHDATE, INTERVAL 40 YEAR)
+WHERE PERSON_ID < 20;
+
+/* Basic Inserts */
+
 insert into deceased (SSN, PERSON_ID, SEX, EYE_COLOR, RACE, BIRTHDATE, DEATHDATE, AGE, BIRTH_PLACE, DEATH_PLACE, FATHER_NAME, MOTHER_NAME, FAMILYHQ, HQ_PHONENUM, INFORMANT_ID) values (548603004, 33, 'N', 'Teal', 'Mexican', '1926-11-23', '2004-01-22', 77, 'Venezuela', 'Venezuela', 'Ingemar', 'Dorie', '9828 Cherokee Trail', '865-337-3280', 1);
 insert into deceased (SSN, PERSON_ID, SEX, EYE_COLOR, RACE, BIRTHDATE, DEATHDATE, AGE, BIRTH_PLACE, DEATH_PLACE, FATHER_NAME, MOTHER_NAME, FAMILYHQ, HQ_PHONENUM, INFORMANT_ID) values (958618729, 9, 'M', 'Goldenrod', 'Ecuadorian', '1929-03-16', '2005-07-05', 76, 'Russia', 'Russia', 'Rodrique', 'Auria', '9 Glacier Hill Place', '105-915-8139', 2);
 insert into deceased (SSN, PERSON_ID, SEX, EYE_COLOR, RACE, BIRTHDATE, DEATHDATE, AGE, BIRTH_PLACE, DEATH_PLACE, FATHER_NAME, MOTHER_NAME, FAMILYHQ, HQ_PHONENUM, INFORMANT_ID) values (549953897, 38, 'M', 'Maroon', 'Bolivian', '1939-08-31', '2007-01-21', 67, 'Indonesia', 'Indonesia','Timothy', 'Maegan', '45445 Tennyson Street', '511-466-4138', 3);
