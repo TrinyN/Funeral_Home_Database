@@ -28,3 +28,13 @@ insert into deceased_maritalstatus (deceased_ssn, status_type) values (816803655
 insert into deceased_maritalstatus (deceased_ssn, status_type) values (951828891, 'never married');
 insert into deceased_maritalstatus (deceased_ssn, status_type) values (958618729, 'married');
 insert into deceased_maritalstatus (deceased_ssn, status_type) values (987659961, 'divorced');
+insert into deceased_maritalstatus (deceased_ssn, status_type) values (540256462, 'married');
+insert into deceased_maritalstatus (deceased_ssn, status_type) values (247198126, 'married');
+insert into deceased_maritalstatus (deceased_ssn, status_type) values (477878034, 'divorced');
+insert into deceased_maritalstatus (deceased_ssn, status_type) values (484369988, 'divorced');
+insert into deceased_maritalstatus (deceased_ssn, status_type) values (511212653, 'widowed');
+insert into deceased_maritalstatus (deceased_ssn, status_type) values (523305340, 'divorced');
+insert into deceased_maritalstatus (deceased_ssn, status_type) values (530129843, 'divorced');
+insert into deceased_maritalstatus (deceased_ssn, status_type) values (535082922, 'widowed');
+
+
