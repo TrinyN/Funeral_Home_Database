@@ -13,9 +13,6 @@ CREATE TABLE `deceased_community` (
   `church` varchar(45) DEFAULT NULL,
   `deceasedOrganization` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`SSN`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
-
-/* View Table */
-SELECT * FROM funeral_home.deceased_community;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 /* end */
