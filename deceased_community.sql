@@ -8,7 +8,8 @@ CREATE TABLE `deceased_community` (
   `armedForces` varchar(45) DEFAULT NULL,
   `occupation` varchar(45) DEFAULT NULL,
   `business` varchar(45) DEFAULT NULL,
-  `education` varchar(45) DEFAULT NULL,
+  `highSchool` varchar(45) DEFAULT NULL,
+  `college` varchar(45) DEFAULT NULL,
   `church` varchar(45) DEFAULT NULL,
   `deceasedOrganization` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`SSN`)
