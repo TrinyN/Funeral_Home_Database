@@ -1,5 +1,7 @@
 /*updates */
 update service set openOrClose = 'O' where SERVICE_NUM = 7;
+update service set openOrClose = 'C' where SERVICE_NUM = 9;
+update service set openOrClose = 'C' where SERVICE_NUM = 0;
 
 /* original inserts */
 
